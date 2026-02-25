@@ -29,8 +29,8 @@ const sans = Inter({
  * This is what Google displays in search results.
  */
 export const metadata: Metadata = {
-  title: "J&I Elite | Concierge Health & Wellness Abuja",
-  description: "World-class private medical care, aesthetic treatments, and wellness suites in Maitama & Asokoro.",
+  title: "J&I Elite | Concierge Health & Wellness Dubai",
+  description: "World-class private medical care, aesthetic treatments, and wellness suites",
   icons: '/images/transparent_logo.png'
 };
 
