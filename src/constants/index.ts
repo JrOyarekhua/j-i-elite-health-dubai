@@ -5,9 +5,9 @@ import {Program, ClinicianIndication} from "@/types";
  */
 export const PROGRAMS: Program[] = [
     {
-        id: 'executive',
-        title: 'The Executive Core Revival',
-        tagline: 'For the woman who cannot afford downtime.',
+        id: 'leadership',
+        title: 'The Leadership Vitality Journey',
+        tagline: 'For the female leader who demands high-level performance and sustainability. Recover your focus and physical resilience without downtime..',
         description: 'Eliminate back pain, build a stronger core, and carry yourself with confidence in the boardroom.',
         interventions: ['Deep Core Reconstruction', 'Reduce Tension & Postural Realignment', 'Improve Confidence & Body Comfort'],
         outcome: 'Outcome: Pain-free focus & confidence  High Level Performance.',
@@ -22,9 +22,9 @@ export const PROGRAMS: Program[] = [
         }
       },
       {
-        id: 'matriarch',
-        title: "The Matriarch's Restoration",
-        tagline: 'For dignity, inner peace, and confidence.',
+        id: 'grace',
+        title: "Grace in Motion",
+        tagline: 'For dignity, inner peace, and the freedom to travel and enjoy your legacy. A program focused on mobility and independence.',
         description: 'Treat personal problems like bladder leakage not as "old age," but as a treatable mechanical issue.',
         interventions: ['Pelvic Floor Lift', 'Dryness Training', 'Pre & Post Surgical Rehabilitation'],
         outcome: 'Outcome: Dignity, Confidence, and Freedom to Travel & Enjoy Life Fully.',
@@ -34,13 +34,13 @@ export const PROGRAMS: Program[] = [
           quote: "I was leaking urine during Salah and avoided travel. Dr. Ann showed me it was a mechanical issue. Now, I am dry and confident."
         },
         image: {
-          url: '/images/programs/woman_in_closet.jpeg',
+          url: '/images/programs/woman_closet.jpeg',
           desc: 'nigerian woman in pain in her closet'
         }
       },
       {
         id: 'birth',
-        title: 'The Birth Ready Protocol',
+        title: 'Birth Readiness',
         tagline: 'For a smoother, safer, empowered delivery.',
         description: 'Prepare your body with movement science, creating the space and path your baby needs for a smoother, safer, and more empowered delivery.',
         interventions: ['Pelvic Alignment Work', 'Labor & Delivery Preparation', 'Perineal Protection'],
@@ -51,15 +51,15 @@ export const PROGRAMS: Program[] = [
           quote: "I felt mentally and emotionally prepared for labor after working with Dr. Nwabuebo, and was grateful to have an uncomplicated delivery."
         },
         image:{
-          url: "/images/programs/woman_doing_squats.jpeg",
-          desc: 'pregnant woman looking in mirror'
+          url: "/images/programs/woman_yoga.jpeg",
+          desc: 'pregnant woman doing yoga'
         }
       },
       {
-        id: 'postpartum',
-        title: 'The Postpartum Sanctuary',
+        id: 'recovery',
+        title: 'Mother Core Recovery',
         tagline: 'For the new mother seeking full recovery.',
-        description: 'Your family cares for you and the baby, and we care for your physical recovery. We’re here to help heal the "mummy tummy", treat your birth scars, and back pain.',
+        description: 'Honoring the &quot;Fourth Trimester.&quot; Comprehensive healing for the core and pelvic floor to restore strength after birth.',
         interventions: ['C-Section Scar Release', 'Pelvic Realignment', 'Intimacy Recovery'],
         outcome: 'Outcome: A healed core and physical freedom to enjoy motherhood.',
         whoFor: 'The new mother (after a c-section or vaginal birth) who wants to recover safely and completely.',
@@ -68,15 +68,15 @@ export const PROGRAMS: Program[] = [
           quote: "My pain vanished. I returned to work and resumed intimacy with my husband. I went on to have a second, pain-free pregnancy."
         },
         image: {
-          url: '/images/programs/postpartum_woman.png',
+          url: '/images/programs/mom_smiling.jpeg',
           desc: 'happy mother holding her children'
         }
       },
       {
         id: 'fertility',
-        title: 'Vitality & Fertility Optimization',
+        title: 'Body Balance & Preparation',
         tagline: 'Preparing the Body for new life.',
-        description: 'Release pelvic adhesions and optimize blood flow to reproductive organs before conception or IVF.',
+        description: 'Preparing the body for new life. A holistic approach to aligning the pelvis and nervous system for conception.',
         interventions: ['Scar Tissue & Adhesion Release', 'Guided Movement for Optimized Flow', 'Nervous System Reset'],
         outcome: 'Outcome: A Body in Balance, Ready to Support New Life.',
         whoFor: 'Women preparing for conception or IVF who want to maximize success rates by removing mechanical barriers.',
@@ -85,13 +85,13 @@ export const PROGRAMS: Program[] = [
           quote: "After two failed IVF cycles, I felt broken. Dr. Ann intensely treated my scars from all my fibroid surgeries, and by God’s grace, I am now in my second trimester."
         },
         image: {
-          url: '/images/programs/woman_pre_pregnancy.jpeg',
+          url: '/images/programs/pregnant_woman.jpeg',
           desc: 'a pregnant woman'
         }
       },
       {
         id: 'pain',
-        title: 'Chronic Pelvic Pain Sanctuary',
+        title: 'The Pain Management Program',
         tagline: 'Where Your Pain Is Taken Seriously.',
         description: 'Stop the cycle of painkillers. We treat the mechanical root causes of chronic pelvic and abdominal pain.',
         interventions: ['Pain-Loop Interruption', 'Adhesion Breaking', 'Root Cause Assessment'],
@@ -102,7 +102,7 @@ export const PROGRAMS: Program[] = [
           quote: "After 16 visits, my pain was 90% improved. I wasn’t afraid to move my body anymore, and I could travel and enjoy being with my family and friends"
         },
         image:{
-          url: '/images/programs/ann_explaining.jpeg',
+          url: '/images/programs/ann_with_woman.jpeg',
           desc: 'doctor explaining diagnoses to patient'
         }
       },

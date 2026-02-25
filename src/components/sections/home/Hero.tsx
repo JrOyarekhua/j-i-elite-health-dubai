@@ -16,18 +16,16 @@ const Hero = () => {
         {/* Left Column: Messaging */}
         <div className="space-y-8 animate-in slide-in-from-left-10 duration-700">
           <Typography color="text-accent" variant="h4">
-            You Deserve To Heal With Grace 
+          welcome to the sanctuary
           </Typography>
           <Typography variant="h1">
-            The World-Class Care You Usually <span className="italic font-light">Travel For</span>. Now in Abuja.
+          Global Expertise. Private Care. A Sanctuary for Women in Abu Dhabi.
           </Typography>
           <Typography variant="body" className="max-w-md">
-            Global expertise. Private care. No visa required. 
-            <br/><br/>
-            We brought the highest global standards of restorative care directly to you. Experience world-class clinical excellence and specialized care without leaving the country.
+            Why travel to London or New York for elite care? Experience U.S. Board-Certified clinical excellence and bespoke recovery in the privacy of your own city. No flights. No visas. Just healing.
           </Typography>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <Button variant="primary" onClick={() => router.push('/contact')}>Request Consultation</Button>
+            <Button variant="primary" onClick={() => router.push('/contact')}>Request Private Consultation</Button>
             <Button variant="secondary" onClick={() => router.push('/clinicians')}>For Medical Professionals</Button>
           </div>
         </div>
@@ -38,7 +36,7 @@ const Hero = () => {
             {/* The Image Area */}
             <Image 
             src={'/images/home/treating_executive.jpeg'}
-            alt="Nigerian woman looking at window"
+            alt="UAE woman looking at window"
             fill={true}
              className="absolute inset-0 flex items-center justify-center text-center text-neutral-500  object-cover"/>
             

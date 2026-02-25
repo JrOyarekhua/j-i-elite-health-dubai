@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { Section, Typography, Button } from "@/src/components/ui";
+import Letter from "@/src/components/sections/founder/Letter";
 import {
   CheckCircle2,
   User,
@@ -13,6 +14,7 @@ import {
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 
+
 const Page = () => {
   const router = useRouter();
   const contributionsStx =
@@ -23,71 +25,7 @@ const Page = () => {
       <Section background="cream" className="py-24">
         <div className="max-w-4xl mx-auto px-6">
           <div className="bg-white p-12 shadow-xl border-t-8 border-accent">
-            <h2 className="font-serif text-3xl mb-6 text-main">
-              A Letter from Our Founder
-            </h2>
-            <div className="space-y-6 text-gray-700 leading-relaxed font-serif">
-              <p>
-                For over twenty years, my professional journey has taken me
-                across four continents and into the heart of the world’s most
-                advanced clinical spaces. From the innovation hubs of Silicon
-                Valley to the prestigious halls of Stanford and the University
-                of Pennsylvania, I have been privileged to shape the standards
-                of pelvic health for some of the most discerning organizations
-                in the world.
-              </p>
-              <p>
-                But throughout those years,even while developing programs for
-                global icons like Google and Nike,I wanted to bring the same
-                depth, rigor, and standard of care back home.
-              </p>
-              <p>
-                Every Nigerian woman represents a unique intersection of
-                strength, grace, and legacy. Yet, for too long, we have had to
-                look beyond our borders whether it’s London, New York or Dubai,
-                to find the level of healthcare, privacy, and specialized
-                expertise we deserve.
-              </p>
-              <div className="border-l-2 border-accent pl-1 flex gap-2 ">
-                <Dot />
-                <p className="font-bold">
-                  <strong>I founded this center to close that gap.</strong>
-                </p>
-              </div>
-              <p>
-                As one of the few Board-Certified Women’s Health Specialists
-                (WCS) globally,a distinction held by less than 1% of my
-                profession,I recognize that elite clinical results require more
-                than just technology. They require a practitioner who
-                understands the cultural and emotional landscape of your life.
-              </p>
-              <p>
-                At <strong>J&I</strong>, we provide a &quot;clinical
-                extension&quot; of your lifestyle. Here, we don’t just offer
-                services; we offer a sanctuary. We provide international
-                standard women’s health and wellness support alongside our
-                signature <strong>Healing With Grace</strong> Pelvic Wellness
-                Protocol. We offer the expert care you expect from global
-                centers, balanced with a profound cultural empathy that honors
-                your story, your privacy, and your lifestyle.
-              </p>
-              <p>
-                This center is a tribute to the values of faith and excellence
-                instilled in my siblings and I by our parents, Mr & Mrs Joshua
-                and Idongesit Reuben Udofia. You have always cared for your
-                family, your businesses, and your community with excellence. It
-                is now our honor to care for you.
-              </p>
-              <div className="pt-6">
-                <p className="font-bold">With Grace and Excellence,</p>
-                <p className="text-accent text-xl mt-2 italic">
-                  Dr. Ann Udofia Nwabuebo, PT, DPT, WCS
-                </p>
-                <p className="text-sm text-gray-400">
-                  Founder, J&I Elite Women’s Health
-                </p>
-              </div>
-            </div>
+            <Letter/>
           </div>
         </div>
       </Section>
@@ -114,7 +52,7 @@ const Page = () => {
             </div>
             <div className="md:col-span-8 space-y-6">
               <Typography variant="h4" color="text-[#C5A059]">
-                The Visionary Behind the Standard
+                Meet Your Clinical Director
               </Typography>
               <Typography variant="h2">Dr. Ann Udofia Nwabuebo</Typography>
 
@@ -123,7 +61,7 @@ const Page = () => {
                   Dr. Ann Nwabuebo is a globally recognized leader in pelvic
                   health and women’s wellness, bringing 20+ years of clinical
                   mastery from the world’s most advanced healthcare ecosystems
-                  to Nigeria. As a{" "}
+                  to the UAE. As a{" "}
                   <strong>
                     Board-Certified Women’s Health Clinical Specialist (WCS)
                   </strong>{" "}
@@ -165,7 +103,7 @@ const Page = () => {
                   field.
                 </p>
                 <p>
-                  Having lived on four continents, Dr. Nwabuebo possesses a
+                  Raised in Muscat, Oman, and having previously served as a women’s health thought leader in Dubai, Dr. Nwabuebo possesses a
                   unique cultural fluency that informs every aspect of her work.
                   At <strong>J&I Women’s Health Center</strong>, she integrates
                   the clinical precision of her U.S. training with an

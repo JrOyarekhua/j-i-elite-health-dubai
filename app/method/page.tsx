@@ -12,10 +12,10 @@ const Page = () => {
     {/* Method Hero */}
     <Section background="white" className="py-20 border-b border-gray-100">
       <div className="max-w-4xl mx-auto px-6 flex flex-col items-center text-center">
-        <Typography variant="h4" color="text-[#C5A059]" className="mb-4">The Proprietary Protocol</Typography>
+        <Typography variant="h4" color="text-[#C5A059]" className="mb-4"> Our Clinical Philosophy</Typography>
         <Typography variant="h1" className="mb-6">Healing With Grace™</Typography>
         <Typography variant="body" className="text-xl mb-4">
-          Global Clinical Excellence. Specialized for the African Woman.
+        Global Clinical Excellence. Specialized for the Discerning Woman in Abu Dhabi.
         </Typography>
         <Image alt="logo" src={'/images/white_new.png'} width={500} height={80}/>
       </div>
@@ -67,29 +67,29 @@ const Page = () => {
             { 
               num: '01', 
               icon: <Fingerprint size={32} />, 
-              title: 'The Deep Dive', 
-              desc: "We don't just scan; we listen. We map your history from boardroom stress to birth trauma to find the root cause.",
+              title: 'The Private Consultation', 
+              desc: "We strictly maintain your privacy while mapping your full history to understand the root cause of your pain.",
               detail: "Includes comprehensive history mapping of all past health battles, surgeries, and stress loads."
             },
             { 
               num: '02', 
               icon: <Activity size={32} />, 
-              title: 'Hands-On Restoration', 
-              desc: "No machines. We use advanced manual therapy treatments to physically release the 'held' tension.",
+              title: 'Release & Restore', 
+              desc: "Using advanced manual therapy to gently release the 'held' tension in your muscles and tissues.",
               detail: "Targeting your scars, pelvis, spine, and deep abdominal tissues to restore mobility."
             },
             { 
               num: '03', 
               icon: <Brain size={32} />, 
-              title: 'Nervous System Reset', 
-              desc: "Guiding your body out of fight or flight so deep healing can begin.",
-              detail: "Retraining your body for your actual life, whether that’s lifting a toddler or sitting through a board meeting."
+              title: 'Calm & Balance', 
+              desc: "Stress prevents healing. We use specialized techniques to calm your nervous system, allowing deep recovery to begin.",
+              detail: "Deep healing cannot happen when the body is defending itself. We create safety first."
             },
             { 
               num: '04', 
               icon: <Zap size={32} />, 
-              title: 'Functional Freedom', 
-              desc: "Retraining your body for your actual life, whether that’s lifting a toddler or sitting through a board meeting.",
+              title: 'Living Without Limits', 
+              desc: "Whether it is chairing a board meeting or lifting your grandchild, we retrain your body to move with confidence.",
               detail: "Biomechanics adapted for your real-world movements, ensuring the pain doesn't return."
             }
           ].map((step, i) => (

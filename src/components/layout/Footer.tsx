@@ -40,11 +40,13 @@ const Footer = () => {
             J&I <span className="text-white">ELITE</span>
           </Typography>
           <p className="text-gray-400 font-sans text-sm leading-relaxed mb-6">
-            World class care you usually travel for
+          Concierge Women’s Health Sanctuary
           </p>
           <Typography variant="small" color="text-muted">
             {FOOTER_DATA.copy}
           </Typography>
+          <br />
+          <Typography variant="small" className="text-muted">DOH Licensed Healthcare Facility</Typography>
         </div>
 
         {/* Column 2: Private Protocols */}

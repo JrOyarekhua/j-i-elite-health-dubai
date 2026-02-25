@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { Award, CheckCircle2, Dot, ShieldCheck, Target } from "lucide-react";
 import { Section, Typography, Button } from "@/src/components/ui";
+import Letter from "@/src/components/sections/founder/Letter";
 import { useRouter } from "next/navigation";
 
 const Brochure = () => {
@@ -17,7 +18,7 @@ const Brochure = () => {
       >
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/home/Main_Page_Sofisticated_Woman_2.jpeg"
+            src="/images/home/woman_window.jpeg"
             alt="Cover"
             fill
             className="object-cover opacity-90"
@@ -48,12 +49,11 @@ const Brochure = () => {
             variant="body"
             className="text-[#C5A059] italic font-serif text-xl md:text-2xl"
           >
-            The World-Class Care You Usually Travel For. Now in Abuja.
+            The World-Class Care You Usually Travel For. Now in Abu Dhabi.
           </Typography>
         </div>
         <div className="relative z-10 flex justify-between items-end border-t border-white/20 pt-6 text-white/60 text-[10px] uppercase tracking-widest">
           <span>J&I Elite Health & Wellness</span>
-          <span>Global Expertise. Private Care. No Visa Required.</span>
         </div>
       </Section>
 
@@ -148,80 +148,7 @@ const Brochure = () => {
             </div>
           </div>
           <div className="md:col-span-7 space-y-6">
-            <Typography variant="h2">A Letter from Our Founder</Typography>
-            <div className="space-y-6 text-gray-700 leading-relaxed font-serif">
-              <p>
-                For over twenty years, my professional journey has taken me
-                across four continents and into the heart of the world’s most
-                advanced clinical spaces. From the innovation hubs of Silicon
-                Valley to the prestigious halls of the University of
-                Pennsylvania, I have been privileged to shape the standards of
-                pelvic health for some of the most discerning organizations in
-                the world.
-              </p>
-              <p>
-                But throughout those years, even while developing programs for
-                global icons like Google and Nike, I wanted to bring the same
-                depth, rigor, and standard of care back home.
-              </p>
-              <p>
-                Every Nigerian woman represents a unique intersection of
-                strength, grace, and legacy. Yet, for too long, we have had to
-                look beyond our borders whether it’s London, New York or Dubai,
-                to find the level of healthcare, privacy, and specialized
-                expertise we deserve.
-              </p>
-              <div className="border-l-2 border-accent pl-1 flex gap-2 ">
-                <Dot />
-                <p className="font-bold">
-                  <strong>I founded this center to close that gap.</strong>
-                </p>
-              </div>
-              <p>
-                As one of the few Board-Certified Women’s Health Specialists
-                (WCS) globally,a distinction held by less than 1% of my
-                profession, I recognize that elite clinical results require more
-                than just technology. They require a practitioner who
-                understands the cultural and emotional landscape of your life.
-              </p>
-              <p>
-                At <strong>J&I</strong>, we provide a &quot;clinical
-                extension&quot; of your lifestyle. Here, we don’t just offer
-                services; we offer a sanctuary. We provide international
-                standard women’s health and wellness support alongside our
-                signature <strong>Healing With Grace</strong> Pelvic Wellness
-                Protocol. We offer the expert care you expect from global
-                centers, balanced with a profound cultural empathy that honors
-                your story, your privacy, and your lifestyle.
-              </p>
-              <p>
-                This center is a tribute to the values of faith and excellence
-                instilled in my siblings and I by our parents, Mr & Mrs Joshua
-                and Idongesit Reuben Udofia. You have always cared for your
-                family, your businesses, and your community with excellence. It
-                is now our honor to care for you.
-              </p>
-              <div className="pt-6">
-                <p className="font-bold">With Grace and Excellence,</p>
-                <p className="text-accent text-xl mt-2 italic">
-                  Dr. Ann Udofia Nwabuebo, PT, DPT, WCS
-                </p>
-                <p className="text-sm text-gray-400">
-                  Founder, J&I Elite Women’s Health
-                </p>
-              </div>
-            </div>
-            <div className="pt-8 mt-8 border-t border-gray-200">
-              <Typography variant="body" className="italic text-xl font-serif">
-                With Grace and Excellence,
-              </Typography>
-              <strong className="block text-[#1A202C] text-lg mt-4">
-                Dr. Ann Udofia Nwabuebo, DPT, WCS
-              </strong>
-              <span className="text-[#C5A059] text-xs uppercase tracking-widest font-bold">
-                Founder, J&I Elite Women’s Health
-              </span>
-            </div>
+            <Letter/>
           </div>
         </div>
       </Section>
@@ -231,20 +158,17 @@ const Brochure = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="text-[#C5A059] uppercase tracking-[0.2em] text-sm font-bold">
-              The Solution
+              The Science of Grace
             </span>
             <h2 className="font-serif text-4xl md:text-5xl mt-4 mb-6">
-              Healing With Grace™
+            Healing With Grace™
             </h2>
             <p className="text-lg text-gray-600">
               <strong>
-                Global Clinical Excellence. Specialized for the African Woman.
+                Global Clinical Excellence
               </strong>
-              <br />A proprietary clinical protocol developed by Dr. Ann
-              Nwabuebo. It fuses advanced pelvic rehabilitation with the
-              specific biomechanical needs of the Nigerian woman, targeting deep
-              abdominal scarring, hypertonic stress patterns, and pelvic density
-              common in women of African descent.
+              <br />An evidence-based approach designed for the unique challenges of a woman’s
+              body—from C-section recovery to releasing chronic stress and deep tissue tension.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -255,7 +179,7 @@ const Brochure = () => {
                 </div>
                 <div>
                   <h3 className="font-serif text-xl font-bold mb-2">
-                    The Deep Dive
+                  The Private Consultation
                   </h3>
                   <p className="text-gray-600">
                     We don&apos;t just scan; we listen. We map your history,
@@ -270,7 +194,7 @@ const Brochure = () => {
                 </div>
                 <div>
                   <h3 className="font-serif text-xl font-bold mb-2">
-                    Hands-On Restoration
+                  Release & Restore
                   </h3>
                   <p className="text-gray-600">
                     No machines. We use advanced manual therapy treatments to
@@ -285,7 +209,7 @@ const Brochure = () => {
                 </div>
                 <div>
                   <h3 className="font-serif text-xl font-bold mb-2">
-                    Nervous System Reset
+                  Calm & Balance
                   </h3>
                   <p className="text-gray-600">
                     Stress locks pain into the body. We guide your nervous
@@ -300,7 +224,7 @@ const Brochure = () => {
                 </div>
                 <div>
                   <h3 className="font-serif text-xl font-bold mb-2">
-                    Functional Freedom
+                  Living Without Limits
                   </h3>
                   <p className="text-gray-600">
                     We retrain your body for <em>your</em> life—whether
@@ -330,7 +254,7 @@ const Brochure = () => {
               Program 01
             </div>
             <h3 className="font-serif text-4xl mb-4 text-[#1A202C]">
-              The Executive Core Revival
+            The Leadership Vitality Journey
             </h3>
             <p className="font-serif italic text-xl text-gray-500 mb-6">
               For the woman who cannot afford downtime.
@@ -400,7 +324,7 @@ const Brochure = () => {
                 </p>
                 <p>
                   <strong>The Transformation:</strong> After 12 visits of the
-                  Executive Protocol, she canceled her surgery. She is back to
+                  Executive Protocol, she successfully managed her condition. She is back to
                   exercising daily and leads her team without the distraction of
                   pain.
                 </p>
@@ -425,8 +349,8 @@ const Brochure = () => {
         <div className="grid md:grid-cols-2 gap-16 items-start">
           <div className="relative aspect-[4/5] shadow-xl md:sticky md:top-8">
             <Image
-              src="/images/programs/woman_in_closet.jpeg"
-              alt="hausa woman in closet"
+              src="/images/programs/woman_closet.jpeg"
+              alt="woman in closet"
               fill
               className="object-cover"
             />
@@ -436,15 +360,14 @@ const Brochure = () => {
               Program 02
             </div>
             <h3 className="font-serif text-4xl mb-4 text-[#1A202C]">
-              The Matriarch’s Restoration
+            Grace in Motion
             </h3>
             <p className="font-serif italic text-xl text-gray-500 mb-6">
               For dignity, integrity in spiritual life, and full participation
               in life.
             </p>
             <p className="text-gray-700 mb-6">
-              Bladder control issues are not &quot;old age&quot;. They are a
-              mechanical failure we can treat. The social cost of this condition
+            Bladder control issues are a treatable muscular condition. The social cost of this condition
               is devastating: avoiding travel, fearing embarrassing situations
               at events, and the disruption of religious or cultural practices
               due to leakage. We restore your confidence to stand, move, and
@@ -516,13 +439,13 @@ const Brochure = () => {
               Program 03
             </div>
             <h3 className="font-serif text-4xl mb-4 text-[#1A202C]">
-              Pre-Conception & Fertility Optimization
+            Body Balance & Preparation
             </h3>
             <p className="font-serif italic text-xl text-gray-500 mb-6">
               Preparing the body to receive life.
             </p>
             <p className="text-gray-700 mb-6">
-              IVF cycles cost millions of Naira and take an immense emotional
+              IVF cycles are a significant financial and emotional investment which take an immense emotional
               toll. You invest heavily in the science of conception; we ensure
               your body is physically capable of receiving that care. We prepare
               the soil before you plant the seed, removing the mechanical
@@ -590,7 +513,7 @@ const Brochure = () => {
           <div className="order-1 md:order-2">
             <div className="relative aspect-[4/5] shadow-xl md:sticky md:top-8">
               <Image
-                src="/images/programs/woman_pre_pregnancy.jpeg"
+                src="/images/programs/pregnant_woman.jpeg"
                 alt="Fertility"
                 fill
                 className="object-cover"
@@ -605,7 +528,7 @@ const Brochure = () => {
         <div className="grid md:grid-cols-2 gap-16 items-start">
           <div className="relative aspect-[4/5] shadow-xl md:sticky md:top-8">
             <Image
-              src="/images/programs/postpartum_woman.png"
+              src="/images/programs/mom_smiling.jpeg"
               alt="Postpartum"
               fill
               className="object-cover"
@@ -616,7 +539,7 @@ const Brochure = () => {
               Program 04
             </div>
             <h3 className="font-serif text-4xl mb-4 text-[#1A202C]">
-              The Postpartum Sanctuary
+            Mother & Core Recovery
             </h3>
             <p className="font-serif italic text-xl text-gray-500 mb-6">
               For core healing, scar recovery, and a return to self.
@@ -624,7 +547,7 @@ const Brochure = () => {
             <p className="text-gray-700 mb-6">
               After childbirth, your family cares for you and the baby, and we
               care for your physical recovery. We’re here to help heal the
-              &quot;mummy tummy&quot;, treat your birth scars, and back pain.
+              Diastasis Recti (Abdominal Separation), treat your birth scars, and back pain.
             </p>
 
             <div className="bg-[#FDFBF7] p-6 rounded shadow-sm border-l-4 border-[#C5A059] mb-8">
@@ -645,7 +568,7 @@ const Brochure = () => {
                   balance and ease of movement.
                 </li>
                 <li>
-                  <strong>Intimacy Recovery:</strong> We use manual therapy
+                  <strong>Marital Comfort & Well-being:</strong> We use manual therapy
                   techniques and exercises to encourage relaxation and blood
                   flow to the pelvic floor, core and spine to ensure your return
                   to marital intimacy is confident and pain-free.
@@ -697,8 +620,8 @@ const Brochure = () => {
           <div>
             <div className="relative h-70 mb-6 shadow-md">
               <Image
-                src="/images/programs/ann_explaining.jpeg"
-                alt="Chronic Pain"
+                src="/images/programs/ann_with_woman.jpeg"
+                alt="Dr.Ann with woman"
                 fill
                 className="object-cover"
               />
@@ -707,10 +630,10 @@ const Brochure = () => {
               Program 05
             </div>
             <h3 className="font-serif text-3xl mb-2 text-[#1A202C]">
-              Chronic Pelvic Pain Sanctuary
+            The Pain Management Program
             </h3>
             <p className="font-serif italic text-lg text-gray-500 mb-4">
-              The end of medical gaslighting.
+              The end of unresolved discomfort.
             </p>
             <p className="text-sm text-gray-700 mb-4">
               You have been told your pain is &apos;normal,&apos; &apos;all in
@@ -766,10 +689,10 @@ const Brochure = () => {
           <div>
             <div className="relative h-64 mb-6 shadow-md">
               <Image
-                src="/images/programs/woman_doing_squats.jpeg"
+                src="/images/programs/woman_yoga.jpeg"
                 alt="woman doing squats"
                 fill
-                className="object-cover object-[50%_10%]"
+                className="object-cover object-center"
               />
             </div>
             <div className="text-[#C5A059] text-sm tracking-widest uppercase font-bold mb-2">
@@ -832,49 +755,6 @@ const Brochure = () => {
       <section className="bg-[#1A202C] text-white py-24 page-break">
         <div className="max-w-7xl mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-16">
           {/* PARTNER VITALITY */}
-          <div>
-            <div className=" relative w-full h-64 mb-5">
-              <Image
-                src="/images/treating_man.jpeg"
-                alt="Partner Vitality"
-                className=" relative object-cover shadow-2xl opacity-90 mb-8"
-                fill
-              />
-            </div>
-
-            <div className="text-[#C5A059] text-sm tracking-widest uppercase font-bold mb-2">
-              Program 07
-            </div>
-            <h3 className="font-serif text-3xl mb-4 text-[#C5A059]">
-              Partner Vitality Optimization
-            </h3>
-            <p className="font-serif italic text-lg text-gray-400 mb-6">
-              Executive performance and longevity for the male partner.
-            </p>
-            <p className="text-gray-300 mb-6 text-sm leading-relaxed">
-              Men often suffer in silence too. Chronic stress, low energy, and
-              &quot;nagging&quot; back, hip or pelvic pain are not just signs of
-              aging; they are signs of a body under siege. We offer a discreet,
-              high-performance maintenance program to ensure the head of the
-              household is as physically resilient as he is professionally
-              successful.
-            </p>
-            <div className="bg-white/10 p-4 rounded border border-white/20">
-              <strong className="block text-[#C5A059] text-xs uppercase mb-2">
-                Real Story: &quot;The Sportsman&quot;
-              </strong>
-              <p className="text-xs text-gray-300 mb-2">
-                <strong>The Struggle:</strong> Avid cyclist with nagging hip
-                pain. Told to &quot;just rest.&quot;
-              </p>
-              <p className="text-xs text-gray-300">
-                <strong>The Transformation:</strong> &quot;After 12 visits, his
-                hip pain was barely there. He returned to racing and set a
-                personal best time. More importantly, he reported better energy
-                and focus at work.&quot;
-              </p>
-            </div>
-          </div>
 
           {/* concierge circle */}
           <div className="border-l border-white/10 pl-8 md:pl-16">
@@ -897,8 +777,7 @@ const Brochure = () => {
                 <div>
                   <strong className="block text-white">Priority Access</strong>
                   <span className="text-gray-400">
-                    Skip the waitlist. Guaranteed booking windows for your Abuja
-                    residencies.
+                    Skip the waitlist. Guaranteed booking windows for your Abu Dhabi sessions.
                   </span>
                 </div>
               </li>
@@ -963,7 +842,7 @@ const Brochure = () => {
             </div>
             <div className="p-6 bg-white shadow-sm border-t-2 border-[#C5A059]">
               <h4 className="font-bold text-[#1A202C] mb-2">
-                US-Board Certified & Globally Proven
+                US-Board Certified & Globally Recognized
               </h4>
               <p className="text-sm text-gray-600">
                 You are treated by a practitioner holding the highest level of
@@ -1004,7 +883,7 @@ const Brochure = () => {
           </h2>
 
           <p className="text-xl text-gray-300 font-light">
-            Dr. Ann’s schedule is strictly limited for Abuja residencies.
+            Dr. Ann’s schedule is strictly limited for Abu Dhabi sessions.
             <br />
             We invite you to secure your private assessment today.
           </p>
@@ -1044,6 +923,9 @@ const Brochure = () => {
                 {/* <li><strong>Location:</strong> Private Suites in Maitama & Asokoro</li> */}
                 <li>
                   <strong>Web:</strong> http://www.jielitehealth.com
+                </li>
+                <li>
+                  <strong>License:</strong> DOH Licensed Healthcare Facility
                 </li>
               </ul>
             </div>

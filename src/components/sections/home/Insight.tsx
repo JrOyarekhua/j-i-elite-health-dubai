@@ -10,8 +10,8 @@ const Insight = () => {
         <div className="order-2 md:order-1 relative">
            <div className="aspect-[4/5] bg-neutral-200 rounded-lg overflow-hidden relative shadow-lg">
            <Image 
-            src={'/images/home/Main_Page_Sofisticated_Woman_2.jpeg'}
-            alt="Nigerian woman looking at window"
+            src={'/images/home/woman_window.jpeg'}
+            alt="woman looking at window"
             fill={true}
              className="absolute inset-0 flex items-center justify-center text-center text-neutral-500  object-cover"/>
            </div>
@@ -26,17 +26,17 @@ const Insight = () => {
         </div>
         <div className="order-1 md:order-2 space-y-6">
           <Typography variant="h4" color="text-accent">The Reality</Typography>
-          <Typography variant="h2">You care for everyone else.</Typography>
+          <Typography variant="h2">You carry the weight of your world.</Typography>
           <Typography variant="body">
-            You lead corporations, manage prominent households, and hold high-pressure roles. You are the definition of resilient.
+          You lead corporations, manage prominent households, and hold high-pressure roles in Abu Dhabi's fast-paced environment. You are the definition of resilient.
           </Typography>
           <Typography variant="body">
             But for too long, resilience has meant <strong>suffering in silence</strong>. Your pain is not &quot;just age.&quot; It is real. 
             We pick up where acute medicine leaves off, providing the rigorous, hands-on restoration that busy hospitals simply 
-            aren&apos;t set up to deliver.
+            aren&apos;t set up to deliver locally.
           </Typography>
           <div className="pt-4 border-l-2 border-accent pl-4">
-            <p className="font-serif italic text-lg text-gray-600">&quot;We don&apos;t replace your doctor; we act as a vital extension of their care.&quot;</p>
+            <p className="font-serif italic text-lg text-gray-600">&quot;We don&apos;t replace your physician; we act as a vital, high-touch extension of their care.&quot;</p>
           </div>
         </div>
       </div>
