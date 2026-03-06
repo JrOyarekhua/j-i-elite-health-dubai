@@ -35,7 +35,7 @@ const Hero = () => {
           <div className="w-[400px] h-[500px] rounded-t-full relative overflow-hidden shadow-2xl">
             {/* The Image Area */}
             <Image 
-            src={'/images/home/treating_executive.jpeg'}
+            src={'/images/home/ann_helping_woman.png'}
             alt="UAE woman looking at window"
             fill={true}
              className="absolute inset-0 flex items-center justify-center text-center text-neutral-500  object-cover"/>

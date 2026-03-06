@@ -224,7 +224,7 @@ const Brochure = () => {
                 </div>
                 <div>
                   <h3 className="font-serif text-xl font-bold mb-2">
-                  Living Without Limits
+                  Real World Strength
                   </h3>
                   <p className="text-gray-600">
                     We retrain your body for <em>your</em> life—whether
@@ -236,10 +236,10 @@ const Brochure = () => {
             </div>
             <div className="relative h-[600px]">
               <Image
-                src="/images/nigerian_woman_golf.jpeg"
+                src="/images/woman_tennis.png"
                 alt="Methodology"
                 fill
-                className="object-cover shadow-2xl"
+                className="object-cover shadow-2xl object-right"
               />
             </div>
           </div>
@@ -334,7 +334,7 @@ const Brochure = () => {
           <div className="order-1 md:order-2">
             <div className="relative aspect-[4/5] shadow-xl md:sticky md:top-8">
               <Image
-                src="/images/programs/executive_in_green.jpeg"
+                src="/images/uae_window.png"
                 alt="Executive Woman"
                 fill
                 className="object-cover"
@@ -360,11 +360,10 @@ const Brochure = () => {
               Program 02
             </div>
             <h3 className="font-serif text-4xl mb-4 text-[#1A202C]">
-            Grace in Motion
+            Midlife Wellness
             </h3>
             <p className="font-serif italic text-xl text-gray-500 mb-6">
-              For dignity, integrity in spiritual life, and full participation
-              in life.
+            For dignity, inner peace, and confidence.
             </p>
             <p className="text-gray-700 mb-6">
             Bladder control issues are a treatable muscular condition. The social cost of this condition
@@ -542,7 +541,7 @@ const Brochure = () => {
             Mother & Core Recovery
             </h3>
             <p className="font-serif italic text-xl text-gray-500 mb-6">
-              For core healing, scar recovery, and a return to self.
+            For the new mother seeking full recovery.
             </p>
             <p className="text-gray-700 mb-6">
               After childbirth, your family cares for you and the baby, and we
@@ -630,7 +629,7 @@ const Brochure = () => {
               Program 05
             </div>
             <h3 className="font-serif text-3xl mb-2 text-[#1A202C]">
-            The Pain Management Program
+            The Fertility Support Program
             </h3>
             <p className="font-serif italic text-lg text-gray-500 mb-4">
               The end of unresolved discomfort.
@@ -699,10 +698,10 @@ const Brochure = () => {
               Program 06
             </div>
             <h3 className="font-serif text-3xl mb-2 text-[#1A202C]">
-              The Birth Ready Protocol
+            The Pain Management Program
             </h3>
             <p className="font-serif italic text-lg text-gray-500 mb-4">
-              For a smoother, safer, and more empowered delivery.
+              Where Your Pain Is Taken Seriously.
             </p>
             <p className="text-sm text-gray-700 mb-4">
               Preparing your body for birth is an act of empowerment. We

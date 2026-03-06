@@ -63,7 +63,7 @@ const Letter = () => {
               <div className="pt-6">
                 <p className="font-bold">With Grace and Excellence,</p>
                 <p className="text-accent text-xl mt-2 italic">
-                  Dr. Ann Udofia Nwabuebo, PT, DPT, WCS
+                  Dr. Ann Udofia-Nwabuebo, PT, DPT, WCS
                 </p>
                 <p className="text-sm text-gray-400">
                   Founder, J&I Elite Women’s Health

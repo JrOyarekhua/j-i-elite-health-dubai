@@ -17,13 +17,13 @@ export const PROGRAMS: Program[] = [
           quote: "I thought surgery was my only option. After the 2-week intensive, my core feels stronger, my pain is gone, and it feels good to be back in the gym."
         },
         image: {
-          url: '/images/programs/executive_in_green.jpeg',
-          desc: 'nigerian woman in green'
+          url: '/images/uae_window.png',
+          desc: 'uae woman looking at window'
         }
       },
       {
-        id: 'grace',
-        title: "Grace in Motion",
+        id: 'wellness',
+        title: "Midlife Wellness",
         tagline: 'For dignity, inner peace, and the freedom to travel and enjoy your legacy. A program focused on mobility and independence.',
         description: 'Treat personal problems like bladder leakage not as "old age," but as a treatable mechanical issue.',
         interventions: ['Pelvic Floor Lift', 'Dryness Training', 'Pre & Post Surgical Rehabilitation'],
@@ -62,7 +62,7 @@ export const PROGRAMS: Program[] = [
         description: 'Honoring the &quot;Fourth Trimester.&quot; Comprehensive healing for the core and pelvic floor to restore strength after birth.',
         interventions: ['C-Section Scar Release', 'Pelvic Realignment', 'Intimacy Recovery'],
         outcome: 'Outcome: A healed core and physical freedom to enjoy motherhood.',
-        whoFor: 'The new mother (after a c-section or vaginal birth) who wants to recover safely and completely.',
+        whoFor: 'The new mother (after a c-section or vaginal birth) who wants to recover safely and completely. Honoring the Fourth Trimester. Comprehensive healing for the core and pelvic floor to restore strength after birth.',
         story: {
           name: 'E.K., New Mum',
           quote: "My pain vanished. I returned to work and resumed intimacy with my husband. I went on to have a second, pain-free pregnancy."
@@ -94,9 +94,9 @@ export const PROGRAMS: Program[] = [
         title: 'The Pain Management Program',
         tagline: 'Where Your Pain Is Taken Seriously.',
         description: 'Stop the cycle of painkillers. We treat the mechanical root causes of chronic pelvic and abdominal pain.',
-        interventions: ['Pain-Loop Interruption', 'Adhesion Breaking', 'Root Cause Assessment'],
+        interventions: ['Pain-Loop Interruption', 'Scar tissue Manipulation', 'Root Cause Assessment'],
         outcome: 'Outcome: Relief Without Reliance on Medications.',
-        whoFor: 'Women suffering from Endometriosis, mysterious abdominal pain, or Vaginismus.',
+        whoFor: 'Women suffering from Endometriosis, discomfort after a hysterectomy, or Vaginismus.',
         story: {
           name: 'P.K., The Pain Warrior',
           quote: "After 16 visits, my pain was 90% improved. I wasn’t afraid to move my body anymore, and I could travel and enjoy being with my family and friends"

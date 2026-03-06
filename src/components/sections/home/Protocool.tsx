@@ -7,9 +7,9 @@ const Protocool = () => {
   return (
     <Section background="white" className="py-24">
       <div className="max-w-7xl mx-auto px-6 text-center mb-16">
-        <Typography variant="h2" className="mb-4">The Science of Grace</Typography>
+        <Typography variant="h2" className="mb-4">Healing With Grace</Typography>
         <Typography variant="body" className="max-w-2xl mx-auto">
-        An evidence-based approach designed for the unique challenges of a woman’s body—from C-section recovery to releasing chronic stress and deep tissue tension.
+        A signature approach to women’s rehabilitation that addresses deep core strength, pelvic function, and recovery through every season of life.
         </Typography>
       </div>
 
@@ -18,10 +18,10 @@ const Protocool = () => {
            <div className="hidden md:block absolute top-12 left-0 w-full h-0.5 bg-gray-200 -z-10"></div>
            
            {[
-             { num: '01', title: 'The Deep Consultation', desc: 'We listen. We map your history to understand the root cause of the problem.' },
-             { num: '02', title: 'Hands-On Release', desc: 'We use advanced hands-on treatments to physically release the "held" tension in your body.' },
-             { num: '03', title: 'Nervous System Balance', desc: 'Guiding your body out of fight or flight so deep healing can begin.' },
-             { num: '04', title: 'Living Without Limits', desc: 'Retraining your body for your actual life, whether that’s lifting a toddler, or sitting through a board meeting.' }
+             { num: '01', title: 'The Private Consultation', desc: 'We strictly maintain your privacy while mapping your full history to understand the root cause of your pain. Includes comprehensive history mapping of all past health battles, surgeries, and stress loads.' },
+             { num: '02', title: 'Release & Restore', desc: 'Using advanced manual therapy to gently release the held tension in your muscles and tissues. Targeting your scars, pelvis, spine, and deep abdominal tissues to restore mobility.'},
+             { num: '03', title: 'Calm & Balance', desc: 'Stress prevents healing. We use specialized techniques to calm your nervous system, allowing deep recovery to begin.' },
+             { num: '04', title: 'Real World Strength', desc: 'Deep healing cannot happen when the body is defending itself. We create safety first.' }
            ].map((step, idx) => (
              <div key={idx} className="bg-white p-6 flex flex-col items-center text-center group cursor-pointer hover:shadow-lg transition-all rounded-lg" onClick={() => router.push('/method')}>
                <div className="w-24 h-24 bg-[#FDFBF7] rounded-full border border-[#C5A059] flex items-center justify-center mb-6 group-hover:bg-[#C5A059] group-hover:text-white transition-colors duration-300 shadow-sm">
